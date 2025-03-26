@@ -46,7 +46,7 @@ img{
     width: max-content;
     text-transform: uppercase;
     font-family: "Big Shoulders";
-    font-size: 60px;
+    font-size: 6vw;
     line-height: 60px;
 }
 
@@ -103,7 +103,7 @@ nav{
 }
 nav > div{
     flex: 1;
-    font-size: 19px;
+    font-size: 1.39vw;
     line-height: 20px;
     text-transform: uppercase;
     font-weight: 100;
@@ -138,10 +138,6 @@ h1 span{
 
 
 @media (max-width: 900px){
-    .pre-loader{
-        padding: 1em;
-        gap: 0.5em
-    }
 
     .counter{
         font-size: 70px;

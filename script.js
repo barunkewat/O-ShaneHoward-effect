@@ -75,30 +75,28 @@ document.addEventListener("DOMContentLoaded", function () {
     gsap.to(".hero-imgs > img", {
         clipPath: "polygon(100% 0%, 0% 0%, 0% 100%, 100% 100%)",
         duration: 2,
-        ease: "power4.inOut",
+        ease: "power2.inOut",
         stagger: 0.25,
-        delay: 8.75,
+        delay: 9,
     });
 
     gsap.to(".hero", {
         scale: 1.25,
         duration: 3,
-        ease: "power3.inOut",
+        ease: "power2.inOut",
         delay: 9,
     });
     gsap.to("nav", {
         y: 100,
         duration: 1,
-        ease: "power3.inOut",
-        delay: 11,
+        ease: "power2.out",
+        delay: 12,
     });
     gsap.to("h1 span", {
         top: "0px",
-        stagger: 0.05,
-        duration: 1.2,
-        ease: "power3.inOut",
-        delay: 11,
+        stagger: 0.1,
+        duration: 1,
+        ease: "power2.out",
+        delay: 12,
     });
-    
-    
 });
